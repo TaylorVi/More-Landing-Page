@@ -13,23 +13,24 @@
                 margin-bottom: 4rem;
                 h1{
                     position: relative;
+                    z-index: 1;
                     font-size: 6.4rem;
                     max-width: 55.5rem;
                     font-style: normal;
                     font-weight: 600;
                     line-height: normal;
-                    letter-spacing: -0.64px;
+                    letter-spacing: -0.064rem;
                     margin-bottom: 2.6rem;
                     &::after{
                         content: "";
-                        height: 0.8rem;
+                        height: .8rem;
                         width: 0rem;
                         background-color: var(--yellow);
                         position: absolute;
-                        bottom: 16px;
+                        bottom: 1.6rem;
                         left: 0;
                         z-index: -1;
-                        animation: changeWidth 2s ease-in-out .6s 1 forwards;
+                        animation: changeWidth 1s ease-in-out .6s 1 forwards;
                     }
                 }
                 p{
@@ -48,14 +49,15 @@
                     position: absolute;
                     top: 0;
                     left: 100%;
-                    width: 34px;
+                    width: 3.4rem;
+                    animation: star 2s ease-in-out;
                 }
             }
             form{
                     border-radius: 12.2rem;
                     background-color: var(--white);
                     max-width: 52rem;
-                    height: 68px;
+                    height: 6.8rem;
                     display: flex;
                     align-items: center;
                     justify-content: space-between;
@@ -68,14 +70,14 @@
                         font-size: 1.6rem;
                         border-radius: 12.2rem;
                         color: var(--gray2);
-                        line-height: 150%; /* 24px */
-                        letter-spacing: -0.08px;
+                        line-height: 150%; /* 2.4rem */
+                        letter-spacing: -0.008rem;
                         font-family: Inter;
                         padding-left: 3.4rem;
                         background-color: var(--white);
                     }
                     button{
-                        margin-right: 15px;
+                        margin-right: 1.5rem;
                         cursor: pointer;
                         border-radius: 12.2rem;
                         padding: 1.6rem 2.8rem;
@@ -89,9 +91,13 @@
             }
             .logos{
                 display: flex;
-                max-width: 400px;
+                max-width: 40rem;
                 gap: 3rem;
                 margin-bottom: 6.3rem;
+                img{
+                max-width: 10rem;
+                 width: 100%;   
+                }
             }
             .reviews{
                 max-width: 22.8rem;
@@ -100,12 +106,12 @@
                 gap: 1.6rem;
                 .stars{
                     display: flex;
-                    gap: 0.6rem;
+                    gap: .6rem;
                     img{
                         max-width: 1.4rem;
                     }
                     span{
-                        gap: 0.4rem;
+                        gap: .4rem;
                         display: flex;
                         font-size: 1.2rem;
                     }
@@ -114,7 +120,7 @@
                     max-width: 12.4rem;
                     display: flex;
                     img{
-                        margin-right: -10px;
+                        margin-right: -1rem;
                     }
                 }
             }
@@ -128,44 +134,44 @@
 }
 
 .s-cards{
-    margin-top: -114px;
-    margin-bottom: 114px;
+    margin-top: -11.4rem;
+    margin-bottom: 11.4rem;
     .container{
         .cards{
             display: flex;
             justify-content: space-between;
-            gap: 32px;
+            gap: 3.2rem;
             .card{
                 width: 38.4rem;
-                padding: 48px 40px;
+                padding: 4.8rem 4rem;
                 background-color: var(--white);
                 border-radius: 1.2rem;
-                box-shadow: 0px 24px 44px -11px rgba(181, 183, 192, 0.30);
+                box-shadow: 0rem 2.4rem 4.4rem -1.1rem rgba(181, 183, 192, 0.30);
                 .icon{
                     max-width: 3.8rem;
                     display: flex;
                     justify-content: center;
                     align-items: center;
                     img{
-                        margin-bottom: 28px;
+                        margin-bottom: 2.8rem;
                     }
                 }
                 .text{
                     h2{
-                        margin-bottom: 3px;
+                        margin-bottom: .3rem;
                         color: #1C1C1F;
-                        font-size: 22px;
+                        font-size: 2.2rem;
                         font-style: normal;
                         font-weight: 600;
-                        line-height: 150%; /* 33px */
+                        line-height: 150%; /* 3.3rem */
                     }
                     p{
                         color: #606272;
                         font-family: Inter;
-                        font-size: 16px;
+                        font-size: 1.6rem;
                         font-style: normal;
                         font-weight: 400;
-                        line-height: 160%; /* 25.6px */
+                        line-height: 160%; /* 2.56rem */
                     }
                 }
         }

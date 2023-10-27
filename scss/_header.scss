@@ -1,9 +1,9 @@
 header{
-    z-index: 1;
+    z-index: 2;
     height: 12.8rem;
     display: flex;
     align-items: center;
-    border-bottom: solid 1px var(--white);
+    border-bottom: solid .1rem var(--white);
     position: fixed;
     width: 100%;
     background-color: var(--white2);
@@ -36,7 +36,7 @@ header{
         }
         .tag{
             position: absolute;
-            bottom: -8px;
+            bottom: -0.8rem;
             span{
                 padding: 0.8rem 1.6rem;
                 color: var(--pink);
@@ -44,7 +44,7 @@ header{
                 font-style: normal;
                 font-weight: 500;
                 line-height: normal;
-                letter-spacing: -0.13px;
+                letter-spacing: -0.013rem;
                 background-color: var(--white);
                 border-radius: 12.2rem;
             }

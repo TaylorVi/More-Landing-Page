@@ -1,0 +1,181 @@
+@media (max-width: 1300px) {
+  html {
+    font-size: 45%;
+    body {
+      .s-hero {
+        .container {
+          .left {
+            .reviews {
+              .stars {
+                margin-left: 74px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 991px) {
+  html {
+    font-size: 42%;
+    body {
+      .s-hero {
+        .container {
+          gap: 100px;
+          .left {
+            width: 50%;
+            .reviews {
+              .stars {
+                margin-left: 70px;
+              }
+            }
+          }
+          .right {
+            width: 50%;
+            img {
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  html {
+    body {
+      .header {
+        .container {
+          justify-content: center;
+          .right {
+            display: none;
+          }
+          .logo {
+          }
+        }
+      }
+      .s-hero {
+        .container {
+          flex-direction: column;
+          gap: 40px;
+          .left {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+            width: 80%;
+            .text {
+              max-width: none;
+              h1 {
+                max-width: none;
+                &::after {
+                  display: none;
+                }
+              }
+              p {
+                max-width: none;
+              }
+            }
+            .logos {
+              margin: 0 auto;
+              gap: 20px;
+              margin-bottom: 32px;
+              img {
+                max-width: 50px;
+              }
+            }
+            form {
+              margin: 0 auto 32px auto;
+            }
+            .reviews {
+              margin: 0 auto;
+            }
+          }
+          .right {
+            margin-top: 0;
+            width: 70%;
+            img {
+              margin-top: 0;
+            }
+          }
+        }
+      }
+      .s-cards {
+        .container {
+          .cards {
+            flex-direction: column;
+            align-items: center;
+            .card {
+              width: 80%;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  html {
+    font-size: 35%;
+    body {
+      .s-hero {
+        .container {
+          gap: 20px;
+          .left {
+            .text {
+              h1 {
+              }
+              p {
+              }
+            }
+            .logos {
+              gap: 10px;
+              img {
+              }
+            }
+            form {
+            }
+            .reviews {
+              gap: 0;
+              .stars {
+                margin-left: 67px;
+              }
+            }
+          }
+          .right {
+            img {
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 420px) {
+  html {
+    font-size: 28%;
+    body {
+      .s-hero {
+        .container {
+          .left {
+            .reviews {
+              .stars {
+                margin-left: 53px;
+              }
+            }
+            .logos {
+              gap: 10px;
+              max-width: none;
+              img {
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
